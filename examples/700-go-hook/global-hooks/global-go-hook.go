@@ -11,5 +11,6 @@ var _ = sdk.RegisterFunc(&go_hook.HookConfig{
 
 func handler(input *go_hook.HookInput) error {
 	input.LogEntry.Infof("Start Global Go hook")
+	input.Values.Set("global.example", "customValues")
 	return nil
 }
