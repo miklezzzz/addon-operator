@@ -1,4 +1,4 @@
-module github.com/flant/addon-operator
+module github.com/miklezzzz/addon-operator
 
 go 1.19
 
